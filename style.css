@@ -84,12 +84,12 @@ button:hover{
         height: auto;
     }
     button{
-        width: 135px;
-        height: 70px;
+        width: 200px;
+        height: 110px;
         border: none;
         border-radius: 10px;
         font-size: 40px;
         cursor: pointer;
-        margin: 14px;
+        margin: 30px;
     }
 }
