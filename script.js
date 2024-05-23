@@ -24,8 +24,11 @@ const removePhotos = () => {
 btn_up.addEventListener("click", (e) => {
     e.preventDefault();
     mask.style.display = "flex";
-    getPhotos();
-    mask.style.display = "none";
+    setTimeout(() => {  
+        getPhotos();
+        mask.style.display = "none";
+        
+    }, 1000);
 });
 btn_re.addEventListener("click", (e) => {
     e.preventDefault();
